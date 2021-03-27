@@ -1,0 +1,85 @@
+body {
+    background-color: white;
+    margin-top: 50px;
+}
+
+.header {
+    color: black;
+    text-align: center;
+}
+
+.segment {
+    background-color: whitesmoke;
+    text-align: left;
+    padding: auto;
+    font-size: 20px;
+}
+
+.big-header {
+    text-align: left;
+}
+  .button1 {
+    background-color: rgb(0, 162, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+  }
+
+  .button2 {
+    background-color: rgb(0, 162, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+  }
+  
+  .button3 {
+      background-color: rgb(255, 0, 85);
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+  }
+
+  .graylabel {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .greenlabel {
+    background-color: rgb(22, 202, 118);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+  }
+
+  input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  
