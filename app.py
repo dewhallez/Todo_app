@@ -31,7 +31,7 @@ def add():
     db.session.commit()
     return redirect(url_for("home"))
 
-# Update task
+# Update task / show as completed
 @app.route("/update/<int:todo_id>")
 def update(todo_id):
     todo = Todo.query.filter_by(id=todo_id).first()
@@ -50,7 +50,7 @@ def delete(todo_id):
 
 
 if __name__ == "__main__":
-  
+    db.create_all()
     app.run(debug=True)
 
 
